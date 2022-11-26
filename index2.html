@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galleria de las 7 bellas</title>
+    <link rel="stylesheet" href="estilo2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <video src="https://carontestudio.com/img/f4.mp4" autoplay="true" muted="true" loop="true" poster="img/tinta.png""></video>
+
+    <header>
+
+ <div class="logo"><a href="index.html"><h1>El arte</h1> </a></div>
+
+
+  <div class="wrapper">
+    <!-- filter Items -->
+    <nav>
+      <div class="items">
+
+
+        <a href="index2.html"><span class="item active" data-name="login">LOGIN</span></a>
+        <a href="index.html"><span class="item active" data-name="gallery">ATRAS</span></a>
+
+      </div>
+    </nav>
+</header>
+<body>
+
+
+  <section>
+    <script language="JavaScript"> 
+        function login(){ 
+        var done=0; 
+        var usuario=document.getElementById("idusuario").value;
+        var clave=document.getElementById("clave").value;
+        console.log("usuario ", )  
+        console.log("clave ",clave)  
+        if (usuario=="USUARIO1" && clave=="CONTRASEÑA1") { 
+        window.location="inicio.html";  
+        } 
+        if (usuario=="lekale53" && clave=="ley5307") { 
+        window.location="inicio.html"; 
+        } 
+        if (usuario=="" && clave=="") { 
+        window.location="errorpopup.html"; 
+        } 
+
+        } 
+        </script> 
+        <script language="Javascript"> 
+        <!-- Begin 
+        document.oncontextmenu = function(){return false} 
+        // End --> 
+        </script>
+
+        <br>
+       
+
+              <section>
+          <div class="contenedor1">
+            <form action="" class="form">
+              <div class="from-header">
+        <h1 class="form title">REGISTRO USUARIO</span></h1>
+
+
+        <section>
+          <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-input " id="idusuario" placejolder="ingresar nombre">
+        <br>
+        <label for="clave" class="form-label">Clave</label>
+        <input type="text" class="form-input " id="clave" placejolder="ingresar clave">
+        <br>
+
+        <button type="button" class="btn-submit1" target="_parent" onclick="login()">Ingresar</button>
+    
+        </section>
+
+    </section>
+    
+   
+
+</body>
+</html>

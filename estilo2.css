@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,400;0,600;1,100;1,200;1,500&display=swap');
+
+  *{
+	margin: 0;
+  }
+
+  
+  video {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 105%;
+	min-height: 100%;
+	transform: translateX(calc((100% - 100vw) / 2));
+	z-index: -2;
+  }
+  .sect {
+	width: 100%;
+	min-height: 800px;
+  }
+  #sect1{
+	background-color:#000000ea;
+	color: #fff;
+  }
+  #sect3 {
+	background-color: #3333337d;
+	color: #fff;
+  }
+  #sect2 {
+	background-color: #052c33c9;
+	color: rgb(255, 250, 250);
+	text-align: center;
+	font-size: 30px;
+  }
+  
+ 
+  h1 {
+	margin: 0;
+	padding-top: 3rem;
+	padding-left: 2rem;
+  }
+  h2 {
+	margin: 0;
+	text-align: center;
+	padding-top: 3rem;
+	padding-left: 2rem;
+  }
+  
+  
+  
+
+	  
+  title{
+    text-align: center;
+    font-size: 40px;
+    color: #6a6a6a;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    width: 100%;
+  padding: 5px;
+    max-width: 1800px;
+    height: 430px;
+	font-size: 30px;
+	font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+	color:#000
+}
+
+.container .card{
+    width: 390px;
+    height: 530px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+	background-color: rgba(255, 255, 255, 0.822);
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+    width: 390px;
+    height: 220px;
+}
+
+
+.container .card h4{
+    font-weight: 600;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+  background: #1D1F20;
+}
+
+.wrap{
+	width: 1100px;
+	margin: 50px auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.tarjeta-wrap{
+	margin: 10px;
+	-webkit-perspective: 800;
+	perspective: 800;
+}
+
+.tarjeta{
+	width: 500px;
+	height: 350px;
+	background: #e8fcfbe1;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition: .7s ease;
+	transition: .7s ease;
+	-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+
+}
+
+.adelante, .atras{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.adelante{
+	width: 100%;
+}
+
+.atras{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	padding: 15px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+
+	text-align: justify;
+	color: #fff;
+	font-family: "open sans";
+  background: #12575081;
+}
+
+.tarjeta-wrap:hover .tarjeta{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+.card1{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1200px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg);
+	background-size: cover;
+	text-align: center;
+}
+
+.card2{
+	background-image: url(https://definicion.de/wp-content/uploads/2008/05/la-gioconda.jpg);
+	background-size: cover;
+}
+
+
+
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+}
+  
+.header{
+background-color: #000;
+width: 100%;
+height: 70px;
+margin: 0%;
+
+}
+body{
+  padding: 10px;
+}
+.logo {
+	color:#5ad8ee;
+	font-size :90px;
+	line-height:60px;
+	margin-left: 10%;
+	float:left;
+  padding: 10x;
+  margin-top:-3%;
+
+  
+
+}
+.logo a{
+  text-decoration: none;
+  font-size: 50px;
+
+
+}
+header h1{
+  color: rgb(81, 241, 201);
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: 1px;
+
+ 
+}
+.wrapper{
+
+  margin: 20px auto;
+max-width: 1px;
+margin-right: 700px;
+ 
+  margin-top:3%;
+
+}
+.wrapper nav{
+  display: flex;
+
+  justify-content: center;
+}
+.wrapper .items{
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+  margin-right: 20px;
+
+}
+.items  a{
+	text-decoration: none;
+	margin: 7px;
+
+}
+
+.items span{
+  padding: 7px 75px;
+  font-size: 24px;
+  font-weight: 100px;
+  cursor: pointer;
+  color: #52eeba;
+  margin: 10px;
+  border-radius: 40px;
+  border: 2px solid #00d9ff;
+  transition: all 0.3s ease;
+}
+.items span.active,
+.items span:hover{
+	color: rgb(2, 2, 2);
+	background: #a6ddd1;
+  }
+
+
+
+
+
+#Contenido{
+	width: 100%;
+	  height: 800px;
+	  background: #0f0f0f;
+	  margin-top: 0%;
+	  float:left;
+	
+	}
+/*diseño formulario*/
+
+
+
+section{
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-attachment: fixed;
+	background-color:transparent;
+	}
+	
+	.form .from-header h1{
+	
+	  font-weight: normal;
+	  font-size: 60px;
+	  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	  text-align: center;
+	  padding: 14px 0px;
+	  color:#0d4e4e;
+	  text-shadow:0 0 8px rgba(255, 255, 255, 0.8);
+	}
+	 .contenedor1 .form{
+	background: transparent;
+	 width: 90%;
+	 height: 300x;
+	 text-align: center;
+	 max-width: 650px;
+	 margin: auto;
+	 padding: 15px 25px;
+	 margin-top: 10px;
+	 padding-bottom: 30px;
+	 border-radius: 8px;
+
+	
+	  }
+	  .contenedor1 .form .form-label{
+	display: block;
+	color:#103838 ;
+	font-size: 30px;
+	text-align: center;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	position: relative;
+background-color: transparent;
+	  }
+	  .contenedor1 .form .form-input{
+	background: rgba(117, 116, 116, 0.3);
+	border:none;
+	outline: none;
+	border-bottom:2px solid #135353  ;
+	width: 100%;
+	padding: 12px;
+	text-align: center;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	font-size: 12px;
+	color:#FBFCFC;
+	font-family:sans-serif;
+	
+	  }
+	
+	.contenedor1 .form .btn-submit1{
+	width: 30%;
+	background:rgb(10, 97, 97) ;
+	text-align: center;
+	font-family:sans-serif;
+	font-size: 20px;
+	outline: none;
+	color:#ffffff;
+	padding: 15px 0;
+	cursor: pointer;
+	transition: all .5s ease;
+	}
+	
+
+	  
+	  ul, li {
+		  padding: 0;
+		  margin: 0;
+		  text-align: center;
+		  list-style: none;
+	  }
+	  
+	  ul.slider{
+		position: relative;
+		width: 100%;
+		height: 400px;
+	  }
+	  
+	  ul.slider li {
+		  position: absolute;
+		  left: 0px;
+		  top: 0px;
+		  opacity: 0;
+		  width: inherit;
+		  height: inherit;
+		  transition: opacity .5s;
+		 }
+	  
+	  ul.slider li img{
+		width: 100%;
+		height: 300px;
+		object-fit: cover;
+	  }
+	  
+	  ul.slider li:first-child {
+		  opacity: 1; /*Mostramos el primer <li>*/
+	  }
+	  
+	  ul.slider li:target {
+		  opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+	  }
+	  
+  footer{
+    width: 100%;
+    height: 230px;
+	color: #fff;
+    background:#0c0c0cfa;
+    clear:both;
+    font-size: 20px;
+    text-align: center;
+    padding: 3px;
+    font-style:sans-serif;
+  }
+  footer img{
+    width: 40px;
+    height: 40px;
+ 
+    cursor: pointer;
+    border:none;
+	
+  }
+  
+  @media(min-width:768px)
+{
+  .contenedor1 .from-header{
+	margin: auto;
+	width: 500px;
+	margin-top: 150px;
+	border-radius: 2%;
+} }
